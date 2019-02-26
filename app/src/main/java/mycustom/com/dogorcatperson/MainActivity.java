@@ -19,12 +19,11 @@ public class MainActivity extends AppCompatActivity {
     private CheckBox checkBoxDog,checkBoxCat,checkBoxParrot;
     private RadioGroup droolRadioGroup;
     private RadioButton droolRadioButton;
-    private int dogCount;
-    private int catcount;
+    private int dogCount=0;
+    private int catcount=0;
     private int parrotCount;
     private SeekBar resultSeekbar;
     private Button resultButton;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
